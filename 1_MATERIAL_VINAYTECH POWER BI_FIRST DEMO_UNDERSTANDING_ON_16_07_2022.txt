@@ -1,0 +1,135 @@
+Data-->Power Platform Hierarchy
+
+Data: 	Anything you are able to store in IT is called as data.
+	We have 3 types of data in IT 
+	a) Structured data
+		Table format [column by column]
+		Databases, Excel etc..
+	b) Semi-Structured Data
+		Partial Structure
+		Ex: Log files, Event Viewers, Journal Info etc...
+	c) Unstuctured Data
+		Social Media
+		Satellite Signal
+		PDF, Word etc.
+
+Where exactly we use this?
+	Majorly two types of IT applications
+	a) Business Processing Applications [OLTP: Online Transaction Processing Applications]
+		Front End(Web, Desktop, Mobile or Tab app)---> Back-End (Databases, Files etc.)
+		General Public
+		Ex: Irctc, Bookmyshow etc.
+		Pnrno, amount, startst, endst, noof pass, date, train no etc..
+		[Structured Data applications]
+		
+		Traansaction Successful / Transaction failed
+
+	b) Business Analysis Applications [1990'...]
+		As the data increasing in the IT storages, there is challenge for analysis.
+		Analytical applications / Decision Making applications / BI applications
+		Bi: Business Intelligence: Intelligence to the business: Decision Making 
+
+		Managers / analysts / CEOs / VPs etc.
+		
+		Ex: 
+		How many trains having full booking
+		Trains having normal booking
+		Trains having NO booking
+		Region having highest sale of tickets
+		Train having highest booking...
+
+		Data---> BI Applications [BI Process]--->BI Data
+
+	Data--> ETL Layer-->DWH-->Semantic Components--> PResentation [Reports or Dashboards]-->BI Data
+
+			Report:
+				Individual Operation specification component [Low level]
+				Many visuals [a component with data or data+graphical] 
+				More Sized Visuals
+				Organization may have multiple reports
+				Ex: Withdraw report, Deposits reports
+			Dashboard
+				A specific subject area high level data presentation
+				Limited visuals and cute visuals
+				Multiple reports information consolidated area
+				Ex: Savings account dashboard with deposuts and withdrawals
+
+		Initial BI applications: [Legacy BI]: Limited capability
+			a) Multiple tools required 
+			b) Multiple resources
+			c) Multiple setups
+
+			d) Reporting capacibility very less [ limited users, limited reports, limited data]
+			
+		MSBI
+			Microsoft Business Intelligence-2005 
+			Suite with multiple tools [SSIS, SSAS, SSRS, DQS, MDS etc.]
+			
+			MSBI versions-2005, 2008, 2008 R2, 2012, 2014, 2016, 2017, 2019,2022
+			From 2008 ...Microsoft is the leader in Analytics and BI
+
+			Adv than legacy:
+			a) Simple to install, single suite for end-end operations
+			b) Single or multiple resources 
+			c) More friendly for MS applications
+
+			
+			Google, Facebook, Twitter...many social media applications...after 2005...
+			Cloud available end of 2009 ...
+			Mobile apps and tab apps...after 2012 ...
+
+			
+			Power BI: "Adding more Power to the existing BI" : Powering BI
+			a) Cloud operations
+			b) Mobile and Tab friendly
+			c)  Any type, Any where, Any Format [100s of sources...]
+			d) Embedding possible
+				[Facebook page<--Power BI]
+			e) SSBI Application [Single application{Power Bi Desktop} to perform end-end BI
+					operations]
+
+
+			Power BI : Monthly updates [ no versions]
+			July 2013---July 2022
+			Every month they have update
+
+
+
+
+			Gartner Rating:
+			https://powerbi.microsoft.com/en-us/blog/microsoft-named-a-leader-in-the-2022-gartner-			magic-quadrant-for-analytics-and-bi-platforms/
+
+			Forrester Wave:
+			https://powerbi.microsoft.com/en-my/blog/microsoft-named-a-leader-in-the-forrester-			wave-augmented-bi-platforms-q3-2021/
+
+
+18--07-2022
+		Till 2019, Power BI Standalone application
+
+		But, now it is under Power Platform.
+		
+		Power Platform: 
+		" A strong platform from Microsoft to perform different types of services with Less Code / No Code"
+		
+		5 Sub Components in Power Platform [We will discuss this tomorrow]
+
+		Power BI Definitions [Detailed-Tomorrow]
+
+		Case Study: To explain the ease of operations in PBI to convert Normal Data--> Decision Making Data
+			[ Also you learn about Self Service BI operations in Power BI]
+
+
+		Normal Data--> Power BI Desktop-->Decision Making Data
+		Desktop: The place where we perform multiple GUI operations
+		Power BI Desktop: Power BI multiple operations graphically performing area.
+
+		Tomorrow onwards...5 PM - 6 PM... Sharp
+
+		7 am, 8 am, 9 am
+		6 pm, 7 pm, 8 pm
+
+
+
+
+
+			
